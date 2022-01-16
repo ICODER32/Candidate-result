@@ -150,7 +150,7 @@ div.error h4 {
     color: #0468b6;
 }
 .result-container{
-    min-height: 30vh;
+    min-height: 170px;
     display: none;
 }
 .result-container h4{
