@@ -15,6 +15,7 @@ if(x.value == ''){
    
    error.style.display='block';
 }else{
+   error.style.display='none';
    result.style.display='block'
    mid.style.display='none';
    
@@ -24,6 +25,9 @@ if(x.value == ''){
 btn1.addEventListener('click',function(){
    if(roll == ''){
       error.style.display='block';
+      
+   }else{
+      error.style.display='none';
 
    }
 })
